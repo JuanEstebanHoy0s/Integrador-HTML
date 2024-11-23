@@ -1,0 +1,69 @@
+@import url(./style.css);
+@import url(../font/font.css);
+*{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+.bodyindex{
+
+        width: 99,9%;
+        
+        background-image: url(/Images/Fondos/background\ index.jpg);
+        /* background-size: cover; */
+        background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-clip: content-box;
+        background-attachment:unset;
+        padding: auto;
+        
+}
+main{
+    width: 100%;
+    min-height: 70vh;
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+}
+main p{
+    font-size: 20px;
+}
+.mainindex h2{
+    background-color: rgba(0, 0, 0, 0.486);
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+.contenido1{
+    width: 80%;
+    margin-left: 10%;
+    margin-right:10%;
+    background-color:rgba(228, 227, 227, 0.923);
+    border-radius: 15px;
+}
+.img1 img{
+    width: 80%;
+}
+.contenido1 .text1{
+    
+    width: 70%;
+    text-align: center;
+    align-content: center;
+}
+.contenido2{
+    width: 80%;
+    margin-left: 10%;
+    margin-right:10%;
+    background-color:rgba(228, 227, 227, 0.923);
+    border-radius: 15px;
+}
+.img2 img{
+    width: 65%;
+}
+.contenido2 .text2{
+    
+    width: 70%;
+    text-align: center;
+    align-content: center;
+}

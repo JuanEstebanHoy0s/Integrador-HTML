@@ -1,0 +1,12 @@
+@font-face {
+    font-family:"Roboto-Bold";
+    src: url(/font/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: "insanibu";
+    src: url(../font/Insanibu.ttf);
+}
+@font-face {
+    font-family: 'Monserrat';
+    src: url(../font/Montserrat-VariableFont_wght.ttf);
+}

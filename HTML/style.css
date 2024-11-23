@@ -1,0 +1,188 @@
+@import url(../font/font.css);
+*{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+html{
+
+        width: 99,9%;
+        
+        background-image: url(/Images/Fondos/background\ index.jpg);
+        /* background-size: cover; */
+        background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-clip: content-box;
+        background-attachment:unset;
+        padding: auto;
+        opacity: 90%;
+      
+        font-family: 'Monserrat', 'Times New Roman', Times, serif;
+        background-repeat: no-repeat;
+        
+}
+
+
+
+   
+header{
+        background-color: #0069c0;
+        opacity: 80%;
+       
+}
+header{
+       
+        width: 100%;
+        display: flex;               
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        font-size: 40px;
+        
+        
+}
+.imglogo{
+        font-size: 20px;
+       
+        border-radius: 10px;
+        
+        
+}
+
+header .box1{        
+        
+        color: rgb(112, 108, 108);   
+        text-align: center;
+        align-items: center;
+        border-radius: 20px;  
+        
+        left: 3%;
+        padding: 1%;
+                    
+}
+.box1:hover{
+        background-color: #2976b5;
+        
+}
+
+header .box2{
+        font-family: 'Monserrat'Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        color: white;
+        width: 100%;
+        height: 60%; 
+        margin-right: 128px;     
+}
+.navbarcolor{
+        background-color: #5097d1;
+        opacity: 80%;
+        justify-content: center;
+        
+
+
+}
+
+.contenido1{
+        display: flex;
+        gap: 30px;
+        margin: 10px 10px;
+        padding: 20px;
+}
+
+.contenido2{
+        display: flex;
+        gap: 30px;
+        margin: 10px 10px;
+        padding: 20px;
+}
+.contenido3 iframe{
+        display: flex;
+        padding: 20px;
+        margin: auto;
+        width: 80%;
+        min-height: 100vh;
+        
+        
+        
+}
+
+.card {
+        background-color: rgba(228, 227, 227, 0.923);
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        text-align: center;
+        padding: 20px;
+        transition: 300ms;
+        width: 33%;
+        
+       
+        
+}
+.card:hover{
+    transform: scale(1.07);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+    
+}
+
+.card h2 {
+    margin: 15px 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.card p {
+    color: #000000;
+    font-size: 1em;
+}
+footer{
+        align-items: end;
+}
+.footer{
+    background-color: rgba(22, 23, 23, 0.897);
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+}
+.footer img{
+        width: 50px;
+        transition: 300ms;
+}
+.footer img:hover{
+        transform: scale(1.1);
+}
+
+@media screen and (max-width: 500px) {
+        .html{
+            width: 60%;
+            background-color: #0069c0;
+            background-position: 0%;
+        }
+
+        .header, .contenedor, .contenido1, .contenido2 {
+                text-align: left; 
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+            }
+        .card{
+                width: 100%;
+        }
+        .banner{
+                flex-direction: column;
+                margin: auto;
+                
+        }
+    }
+

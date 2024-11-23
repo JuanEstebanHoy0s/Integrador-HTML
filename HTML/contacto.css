@@ -1,0 +1,29 @@
+@import url(../HTML/style.css);
+
+body{
+    width: 99,9%;
+    margin-left: 2px;
+    margin-right: 3px;
+    background-image: url(/Images/Fondos/background.jpg);
+    /* background-size: cover; */
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-attachment:unset;
+    padding: auto;
+}
+
+.main {
+    
+    background-color: rgba(228, 227, 227, 0.923);
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    color: rgb(0, 0, 0);
+    margin: 0% 5% 0.2%;
+    border-radius: 5px;
+    padding: 1%;
+    
+}
+

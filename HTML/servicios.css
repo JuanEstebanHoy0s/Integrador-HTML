@@ -1,0 +1,17 @@
+@import url(./style.css);
+.bodyservicios{
+    
+        width: 99,9%;
+        margin-left: 2px;
+        margin-right: 3px;
+        background-image: url(/Images/Fondos/background.jpg);
+        /* background-size: cover; */
+        background-attachment: fixed;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-clip: content-box;
+        background-attachment:unset;
+        padding: auto;
+        
+
+}

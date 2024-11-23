@@ -1,0 +1,127 @@
+@import url(../font/font.css);
+@import url(../HTML/style.css);
+*{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+}
+
+
+html{
+        width: 99,9%;
+        font-family: 'Monserrat', 'Times New Roman', Times, serif;
+ 
+}
+body{
+    width: 99,9%;
+    margin-left: 2px;
+    margin-right: 3px;
+    background-image: url(/Images/Fondos/background.jpg);
+    /* background-size: cover; */
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-clip: content-box;
+    background-attachment:unset;
+    padding: auto;
+}
+ .main{
+      
+   margin: auto;
+   
+ }
+
+.contenedor {
+    min-height: 70vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    gap: 80px;
+    margin: auto;
+}
+
+.contenedor-formulario {
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255,0.85);
+    margin: 20px 20px;
+    border-radius: 8px;
+    padding: 20px;
+  
+}
+
+.formulario-registro {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+ .formulario-inicio-sesion {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
+.contenedor h2{
+    text-align: center;
+    margin: 3%;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #eb0f0f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #1c0ee2;
+}
+.footer{
+    background-color: rgba(22, 23, 23, 0.897);
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    color: white;
+   
+}
+.footer img{
+        width: 50px;
+        transition: 300ms;
+}
+.footer img:hover{
+        transform: scale(1.1);
+}
+
+
+
+
+
+
+  
